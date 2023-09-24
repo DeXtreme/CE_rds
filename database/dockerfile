@@ -1,0 +1,2 @@
+FROM postgres:14.1-bullseye
+ADD ./pokedex.sql /docker-entrypoint-initdb.d/pokedex.sql
